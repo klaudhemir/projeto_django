@@ -10,16 +10,16 @@
     <table class="table">
         <tr>
             <th>Nome</th>
-            <th>CPF</th>
-            <th>Email</th>
-            <th>Telefone</th>
+            <th>Preco</th>
+            <th>Estoque</th>
+            
         </tr>
         {% for produtos in produtos %}
         <tr>
             <td>{{produtos.nome}}</td>
             <td>{{produtos.preco}}</td>
             <td>{{produtos.estoque}}</td>
-            <td>{{produtos.validade}}</td>
+            
         </tr>
         {% endfor %}
     </table>
